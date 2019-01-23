@@ -1,0 +1,50 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '../css/main.css';
+
+// Font-Awesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/*
+* Мои стили
+*/
+.delete_form{
+    display: inline-block;
+}
+
+.app-sidebar__user-avatar{
+    width: 50px;
+}
+
+.card-img-bg{
+    height: 230px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-fixed{
+    table-layout: fixed;
+}
+
+.table .thead-dark th {
+    background-color: #222d32 !important;
+    border-color: #222d32 !important;
+}
+
+.badge-views{
+    border-radius: 0 0.25rem 0;
+    font-size: 85%;
+    top: -1px; right: 0;
+}
