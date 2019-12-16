@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.4.xsd" frameworkId="com.symfony.component" name="Tool_based_on_Symfony_Console_24.01.19 0:40_artisan" invoke="D:\OSPanel\modules\php\PHP-7.1\php.exe D:\OSPanel\domains\laravel-tmp.local\artisan" alias="artisan" enabled="true" version="2">
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.4.xsd" frameworkId="com.symfony.component" name="Tool_based_on_Symfony_Console_16.12.19 15:24_artisan" invoke="D:\OSPanel\modules\php\PHP_7.3\php.exe D:\OSPanel\domains\ruvi_laravel.local\artisan" alias="artisan" enabled="true" version="2">
   <extraData><![CDATA[version:3]]></extraData>
   <command>
     <name>clear-compiled</name>
@@ -135,7 +135,7 @@
   </command>
   <command>
     <name>help</name>
-    <help><![CDATA[The <b>help</b> command displays help for a given command:<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan help list</b><br> <br> You can also output the help in other formats by using the <comment>--format</comment> option:<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan help --format=xml list</b><br> <br> To display the list of available commands, please use the <b>list</b> command.<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--format</td><td></td><td>The output format (txt, xml, json, or md)</td></tr> <tr><td>--raw</td><td></td><td>To output raw command help</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[The <b>help</b> command displays help for a given command:<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan help list</b><br> <br> You can also output the help in other formats by using the <comment>--format</comment> option:<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan help --format=xml list</b><br> <br> To display the list of available commands, please use the <b>list</b> command.<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--format</td><td></td><td>The output format (txt, xml, json, or md)</td></tr> <tr><td>--raw</td><td></td><td>To output raw command help</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <params>command_name[=null]</params>
     <optionsBefore>
       <option name="--format" shortcut="" pattern="equals">
@@ -202,7 +202,7 @@
   </command>
   <command>
     <name>list</name>
-    <help><![CDATA[The <b>list</b> command lists all commands:<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan list</b><br> <br> You can also display the commands for a specific namespace:<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan list test</b><br> <br> You can also output the information in other formats by using the <comment>--format</comment> option:<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan list --format=xml</b><br> <br> It's also possible to get raw list of commands (useful for embedding command runner):<br> <br> <b>php D:\OSPanel\domains\laravel-tmp.local\artisan list --raw</b><br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--raw</td><td></td><td>To output raw command list</td></tr> <tr><td>--format</td><td></td><td>The output format (txt, xml, json, or md)</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[The <b>list</b> command lists all commands:<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan list</b><br> <br> You can also display the commands for a specific namespace:<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan list test</b><br> <br> You can also output the information in other formats by using the <comment>--format</comment> option:<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan list --format=xml</b><br> <br> It's also possible to get raw list of commands (useful for embedding command runner):<br> <br> <b>php D:\OSPanel\domains\ruvi_laravel.local\artisan list --raw</b><br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--raw</td><td></td><td>To output raw command list</td></tr> <tr><td>--format</td><td></td><td>The output format (txt, xml, json, or md)</td></tr> </table> <br/>]]></help>
     <params>namespace[=null]</params>
     <optionsBefore>
       <option name="--raw" shortcut="">
@@ -215,7 +215,7 @@
   </command>
   <command>
     <name>migrate</name>
-    <help><![CDATA[Run the database migrations<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--pretend</td><td></td><td>Dump the SQL queries that would be run</td></tr> <tr><td>--seed</td><td></td><td>Indicates if the seed task should be re-run</td></tr> <tr><td>--step</td><td></td><td>Force the migrations to be run so they can be rolled back individually</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Run the database migrations<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path(s) to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--pretend</td><td></td><td>Dump the SQL queries that would be run</td></tr> <tr><td>--seed</td><td></td><td>Indicates if the seed task should be re-run</td></tr> <tr><td>--step</td><td></td><td>Force the migrations to be run so they can be rolled back individually</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--database" shortcut="" pattern="equals">
         <help><![CDATA[The database connection to use]]></help>
@@ -224,7 +224,7 @@
         <help><![CDATA[Force the operation to run when in production]]></help>
       </option>
       <option name="--path" shortcut="" pattern="equals">
-        <help><![CDATA[The path to the migrations files to be executed]]></help>
+        <help><![CDATA[The path(s) to the migrations files to be executed]]></help>
       </option>
       <option name="--realpath" shortcut="">
         <help><![CDATA[Indicate any provided migration file paths are pre-resolved absolute paths]]></help>
@@ -330,13 +330,16 @@
   </command>
   <command>
     <name>serve</name>
-    <help><![CDATA[Serve the application on the PHP development server<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--host</td><td></td><td>The host address to serve the application on</td></tr> <tr><td>--port</td><td></td><td>The port to serve the application on</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Serve the application on the PHP development server<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--host</td><td></td><td>The host address to serve the application on</td></tr> <tr><td>--port</td><td></td><td>The port to serve the application on</td></tr> <tr><td>--tries</td><td></td><td>The max number of ports to attempt to serve from</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--host" shortcut="" pattern="equals">
         <help><![CDATA[The host address to serve the application on]]></help>
       </option>
       <option name="--port" shortcut="" pattern="equals">
         <help><![CDATA[The port to serve the application on]]></help>
+      </option>
+      <option name="--tries" shortcut="" pattern="equals">
+        <help><![CDATA[The max number of ports to attempt to serve from]]></help>
       </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -396,9 +399,16 @@
     </optionsBefore>
   </command>
   <command>
-    <name>up</name>
-    <help><![CDATA[Bring the application out of maintenance mode<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <name>ui</name>
+    <help><![CDATA[Swap the front-end scaffolding for the application<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--auth</td><td></td><td>Install authentication UI scaffolding</td></tr> <tr><td>--option</td><td></td><td>Pass an option to the preset command</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <params>type</params>
     <optionsBefore>
+      <option name="--auth" shortcut="">
+        <help><![CDATA[Install authentication UI scaffolding]]></help>
+      </option>
+      <option name="--option" shortcut="" pattern="equals">
+        <help><![CDATA[Pass an option to the preset command]]></help>
+      </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
       </option>
@@ -426,9 +436,8 @@
     </optionsBefore>
   </command>
   <command>
-    <name>app:name</name>
-    <help><![CDATA[Set the application namespace<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
-    <params>name</params>
+    <name>up</name>
+    <help><![CDATA[Bring the application out of maintenance mode<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -682,8 +691,110 @@
     </optionsBefore>
   </command>
   <command>
+    <name>db:wipe</name>
+    <help><![CDATA[Drop all tables, views, and types<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--drop-views</td><td></td><td>Drop all tables and views</td></tr> <tr><td>--drop-types</td><td></td><td>Drop all tables and types (Postgres only)</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <optionsBefore>
+      <option name="--database" shortcut="" pattern="equals">
+        <help><![CDATA[The database connection to use]]></help>
+      </option>
+      <option name="--drop-views" shortcut="">
+        <help><![CDATA[Drop all tables and views]]></help>
+      </option>
+      <option name="--drop-types" shortcut="">
+        <help><![CDATA[Drop all tables and types (Postgres only)]]></help>
+      </option>
+      <option name="--force" shortcut="">
+        <help><![CDATA[Force the operation to run when in production]]></help>
+      </option>
+      <option name="--help" shortcut="-h">
+        <help><![CDATA[Display this help message]]></help>
+      </option>
+      <option name="--quiet" shortcut="-q">
+        <help><![CDATA[Do not output any message]]></help>
+      </option>
+      <option name="--verbose" shortcut="-v">
+        <help><![CDATA[Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug]]></help>
+      </option>
+      <option name="--version" shortcut="-V">
+        <help><![CDATA[Display this application version]]></help>
+      </option>
+      <option name="--ansi" shortcut="">
+        <help><![CDATA[Force ANSI output]]></help>
+      </option>
+      <option name="--no-ansi" shortcut="">
+        <help><![CDATA[Disable ANSI output]]></help>
+      </option>
+      <option name="--no-interaction" shortcut="-n">
+        <help><![CDATA[Do not ask any interactive question]]></help>
+      </option>
+      <option name="--env" shortcut="" pattern="equals">
+        <help><![CDATA[The environment the command should run under]]></help>
+      </option>
+    </optionsBefore>
+  </command>
+  <command>
     <name>debugbar:clear</name>
     <help><![CDATA[Clear the Debugbar Storage<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <optionsBefore>
+      <option name="--help" shortcut="-h">
+        <help><![CDATA[Display this help message]]></help>
+      </option>
+      <option name="--quiet" shortcut="-q">
+        <help><![CDATA[Do not output any message]]></help>
+      </option>
+      <option name="--verbose" shortcut="-v">
+        <help><![CDATA[Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug]]></help>
+      </option>
+      <option name="--version" shortcut="-V">
+        <help><![CDATA[Display this application version]]></help>
+      </option>
+      <option name="--ansi" shortcut="">
+        <help><![CDATA[Force ANSI output]]></help>
+      </option>
+      <option name="--no-ansi" shortcut="">
+        <help><![CDATA[Disable ANSI output]]></help>
+      </option>
+      <option name="--no-interaction" shortcut="-n">
+        <help><![CDATA[Do not ask any interactive question]]></help>
+      </option>
+      <option name="--env" shortcut="" pattern="equals">
+        <help><![CDATA[The environment the command should run under]]></help>
+      </option>
+    </optionsBefore>
+  </command>
+  <command>
+    <name>event:cache</name>
+    <help><![CDATA[Discover and cache the application's events and listeners<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <optionsBefore>
+      <option name="--help" shortcut="-h">
+        <help><![CDATA[Display this help message]]></help>
+      </option>
+      <option name="--quiet" shortcut="-q">
+        <help><![CDATA[Do not output any message]]></help>
+      </option>
+      <option name="--verbose" shortcut="-v">
+        <help><![CDATA[Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug]]></help>
+      </option>
+      <option name="--version" shortcut="-V">
+        <help><![CDATA[Display this application version]]></help>
+      </option>
+      <option name="--ansi" shortcut="">
+        <help><![CDATA[Force ANSI output]]></help>
+      </option>
+      <option name="--no-ansi" shortcut="">
+        <help><![CDATA[Disable ANSI output]]></help>
+      </option>
+      <option name="--no-interaction" shortcut="-n">
+        <help><![CDATA[Do not ask any interactive question]]></help>
+      </option>
+      <option name="--env" shortcut="" pattern="equals">
+        <help><![CDATA[The environment the command should run under]]></help>
+      </option>
+    </optionsBefore>
+  </command>
+  <command>
+    <name>event:clear</name>
+    <help><![CDATA[Clear all cached events and listeners<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -742,14 +853,11 @@
     </optionsBefore>
   </command>
   <command>
-    <name>key:generate</name>
-    <help><![CDATA[Set the application key<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--show</td><td></td><td>Display the key instead of modifying files</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <name>event:list</name>
+    <help><![CDATA[List the application's events and listeners<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--event</td><td></td><td>Filter the events by name</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
-      <option name="--show" shortcut="">
-        <help><![CDATA[Display the key instead of modifying files]]></help>
-      </option>
-      <option name="--force" shortcut="">
-        <help><![CDATA[Force the operation to run when in production]]></help>
+      <option name="--event" shortcut="" pattern="equals">
+        <help><![CDATA[Filter the events by name]]></help>
       </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -778,14 +886,14 @@
     </optionsBefore>
   </command>
   <command>
-    <name>make:auth</name>
-    <help><![CDATA[Scaffold basic login and registration views and routes<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--views</td><td></td><td>Only scaffold the authentication views</td></tr> <tr><td>--force</td><td></td><td>Overwrite existing views by default</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <name>key:generate</name>
+    <help><![CDATA[Set the application key<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--show</td><td></td><td>Display the key instead of modifying files</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
-      <option name="--views" shortcut="">
-        <help><![CDATA[Only scaffold the authentication views]]></help>
+      <option name="--show" shortcut="">
+        <help><![CDATA[Display the key instead of modifying files]]></help>
       </option>
       <option name="--force" shortcut="">
-        <help><![CDATA[Overwrite existing views by default]]></help>
+        <help><![CDATA[Force the operation to run when in production]]></help>
       </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -1167,7 +1275,7 @@
   </command>
   <command>
     <name>make:migration</name>
-    <help><![CDATA[Create a new migration file<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--create</td><td></td><td>The table to be created</td></tr> <tr><td>--table</td><td></td><td>The table to migrate</td></tr> <tr><td>--path</td><td></td><td>The location where the migration file should be created</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Create a new migration file<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--create</td><td></td><td>The table to be created</td></tr> <tr><td>--table</td><td></td><td>The table to migrate</td></tr> <tr><td>--path</td><td></td><td>The location where the migration file should be created</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--fullpath</td><td></td><td>Output the full path of the migration</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <params>name</params>
     <optionsBefore>
       <option name="--create" shortcut="" pattern="equals">
@@ -1181,6 +1289,9 @@
       </option>
       <option name="--realpath" shortcut="">
         <help><![CDATA[Indicate any provided migration file paths are pre-resolved absolute paths]]></help>
+      </option>
+      <option name="--fullpath" shortcut="">
+        <help><![CDATA[Output the full path of the migration]]></help>
       </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -1559,13 +1670,16 @@
   </command>
   <command>
     <name>migrate:fresh</name>
-    <help><![CDATA[Drop all tables and re-run all migrations<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--drop-views</td><td></td><td>Drop all tables and views</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--seed</td><td></td><td>Indicates if the seed task should be re-run</td></tr> <tr><td>--seeder</td><td></td><td>The class name of the root seeder</td></tr> <tr><td>--step</td><td></td><td>Force the migrations to be run so they can be rolled back individually</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Drop all tables and re-run all migrations<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--drop-views</td><td></td><td>Drop all tables and views</td></tr> <tr><td>--drop-types</td><td></td><td>Drop all tables and types (Postgres only)</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--seed</td><td></td><td>Indicates if the seed task should be re-run</td></tr> <tr><td>--seeder</td><td></td><td>The class name of the root seeder</td></tr> <tr><td>--step</td><td></td><td>Force the migrations to be run so they can be rolled back individually</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--database" shortcut="" pattern="equals">
         <help><![CDATA[The database connection to use]]></help>
       </option>
       <option name="--drop-views" shortcut="">
         <help><![CDATA[Drop all tables and views]]></help>
+      </option>
+      <option name="--drop-types" shortcut="">
+        <help><![CDATA[Drop all tables and types (Postgres only)]]></help>
       </option>
       <option name="--force" shortcut="">
         <help><![CDATA[Force the operation to run when in production]]></help>
@@ -1742,7 +1856,7 @@
   </command>
   <command>
     <name>migrate:rollback</name>
-    <help><![CDATA[Rollback the last database migration<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--pretend</td><td></td><td>Dump the SQL queries that would be run</td></tr> <tr><td>--step</td><td></td><td>The number of migrations to be reverted</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Rollback the last database migration<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--force</td><td></td><td>Force the operation to run when in production</td></tr> <tr><td>--path</td><td></td><td>The path(s) to the migrations files to be executed</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--pretend</td><td></td><td>Dump the SQL queries that would be run</td></tr> <tr><td>--step</td><td></td><td>The number of migrations to be reverted</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--database" shortcut="" pattern="equals">
         <help><![CDATA[The database connection to use]]></help>
@@ -1751,7 +1865,7 @@
         <help><![CDATA[Force the operation to run when in production]]></help>
       </option>
       <option name="--path" shortcut="" pattern="equals">
-        <help><![CDATA[The path to the migrations files to be executed]]></help>
+        <help><![CDATA[The path(s) to the migrations files to be executed]]></help>
       </option>
       <option name="--realpath" shortcut="">
         <help><![CDATA[Indicate any provided migration file paths are pre-resolved absolute paths]]></help>
@@ -1790,13 +1904,13 @@
   </command>
   <command>
     <name>migrate:status</name>
-    <help><![CDATA[Show the status of each migration<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--path</td><td></td><td>The path to the migrations files to use</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[Show the status of each migration<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--database</td><td></td><td>The database connection to use</td></tr> <tr><td>--path</td><td></td><td>The path(s) to the migrations files to use</td></tr> <tr><td>--realpath</td><td></td><td>Indicate any provided migration file paths are pre-resolved absolute paths</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
       <option name="--database" shortcut="" pattern="equals">
         <help><![CDATA[The database connection to use]]></help>
       </option>
       <option name="--path" shortcut="" pattern="equals">
-        <help><![CDATA[The path to the migrations files to use]]></help>
+        <help><![CDATA[The path(s) to the migrations files to use]]></help>
       </option>
       <option name="--realpath" shortcut="">
         <help><![CDATA[Indicate any provided migration file paths are pre-resolved absolute paths]]></help>
@@ -2304,8 +2418,17 @@
   </command>
   <command>
     <name>route:list</name>
-    <help><![CDATA[List all registered routes<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--method</td><td></td><td>Filter the routes by method</td></tr> <tr><td>--name</td><td></td><td>Filter the routes by name</td></tr> <tr><td>--path</td><td></td><td>Filter the routes by path</td></tr> <tr><td>--reverse</td><td>(-r)</td><td>Reverse the ordering of the routes</td></tr> <tr><td>--sort</td><td></td><td>The column (host, method, uri, name, action, middleware) to sort by</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <help><![CDATA[List all registered routes<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--columns</td><td></td><td>Columns to include in the route table</td></tr> <tr><td>--compact</td><td>(-c)</td><td>Only show method, URI and action columns</td></tr> <tr><td>--json</td><td></td><td>Output the route list as JSON</td></tr> <tr><td>--method</td><td></td><td>Filter the routes by method</td></tr> <tr><td>--name</td><td></td><td>Filter the routes by name</td></tr> <tr><td>--path</td><td></td><td>Filter the routes by path</td></tr> <tr><td>--reverse</td><td>(-r)</td><td>Reverse the ordering of the routes</td></tr> <tr><td>--sort</td><td></td><td>The column (domain, method, uri, name, action, middleware) to sort by</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
+      <option name="--columns" shortcut="" pattern="equals">
+        <help><![CDATA[Columns to include in the route table]]></help>
+      </option>
+      <option name="--compact" shortcut="-c">
+        <help><![CDATA[Only show method, URI and action columns]]></help>
+      </option>
+      <option name="--json" shortcut="">
+        <help><![CDATA[Output the route list as JSON]]></help>
+      </option>
       <option name="--method" shortcut="" pattern="equals">
         <help><![CDATA[Filter the routes by method]]></help>
       </option>
@@ -2319,7 +2442,7 @@
         <help><![CDATA[Reverse the ordering of the routes]]></help>
       </option>
       <option name="--sort" shortcut="" pattern="equals">
-        <help><![CDATA[The column (host, method, uri, name, action, middleware) to sort by]]></help>
+        <help><![CDATA[The column (domain, method, uri, name, action, middleware) to sort by]]></help>
       </option>
       <option name="--help" shortcut="-h">
         <help><![CDATA[Display this help message]]></help>
@@ -2469,6 +2592,43 @@
     </optionsBefore>
   </command>
   <command>
+    <name>ui:auth</name>
+    <help><![CDATA[Scaffold basic login and registration views and routes<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--views</td><td></td><td>Only scaffold the authentication views</td></tr> <tr><td>--force</td><td></td><td>Overwrite existing views by default</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
+    <params>type[=null]</params>
+    <optionsBefore>
+      <option name="--views" shortcut="">
+        <help><![CDATA[Only scaffold the authentication views]]></help>
+      </option>
+      <option name="--force" shortcut="">
+        <help><![CDATA[Overwrite existing views by default]]></help>
+      </option>
+      <option name="--help" shortcut="-h">
+        <help><![CDATA[Display this help message]]></help>
+      </option>
+      <option name="--quiet" shortcut="-q">
+        <help><![CDATA[Do not output any message]]></help>
+      </option>
+      <option name="--verbose" shortcut="-v">
+        <help><![CDATA[Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug]]></help>
+      </option>
+      <option name="--version" shortcut="-V">
+        <help><![CDATA[Display this application version]]></help>
+      </option>
+      <option name="--ansi" shortcut="">
+        <help><![CDATA[Force ANSI output]]></help>
+      </option>
+      <option name="--no-ansi" shortcut="">
+        <help><![CDATA[Disable ANSI output]]></help>
+      </option>
+      <option name="--no-interaction" shortcut="-n">
+        <help><![CDATA[Do not ask any interactive question]]></help>
+      </option>
+      <option name="--env" shortcut="" pattern="equals">
+        <help><![CDATA[The environment the command should run under]]></help>
+      </option>
+    </optionsBefore>
+  </command>
+  <command>
     <name>vendor:publish</name>
     <help><![CDATA[Publish any publishable assets from vendor packages<br/><br/><table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--force</td><td></td><td>Overwrite any existing files</td></tr> <tr><td>--all</td><td></td><td>Publish assets for all service providers without prompt</td></tr> <tr><td>--provider</td><td></td><td>The service provider that has assets you want to publish</td></tr> <tr><td>--tag</td><td></td><td>One or many tags that have assets you want to publish</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/>]]></help>
     <optionsBefore>
@@ -2570,6 +2730,6 @@
       </option>
     </optionsBefore>
   </command>
-  <help><![CDATA[<p>Usage:<br> [options] command [arguments] </p><br> <table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/> <table> <tr><td><strong>Available commands:</strong></td></tr> <tr><td>clear-compiled</td><td>Remove the compiled class file</td></tr> <tr><td>down</td><td>Put the application into maintenance mode</td></tr> <tr><td>dump-server</td><td>Start the dump server to collect dump information.</td></tr> <tr><td>env</td><td>Display the current framework environment</td></tr> <tr><td>help</td><td>Displays help for a command</td></tr> <tr><td>inspire</td><td>Display an inspiring quote</td></tr> <tr><td>list</td><td>Lists commands</td></tr> <tr><td>migrate</td><td>Run the database migrations</td></tr> <tr><td>optimize</td><td>Cache the framework bootstrap files</td></tr> <tr><td>preset</td><td>Swap the front-end scaffolding for the application</td></tr> <tr><td>serve</td><td>Serve the application on the PHP development server</td></tr> <tr><td>tinker</td><td>Interact with your application</td></tr> <tr><td>up</td><td>Bring the application out of maintenance mode</td></tr> <tr><td>app:name</td><td>Set the application namespace</td></tr> <tr><td>auth:clear-resets</td><td>Flush expired password reset tokens</td></tr> <tr><td>cache:clear</td><td>Flush the application cache</td></tr> <tr><td>cache:forget</td><td>Remove an item from the cache</td></tr> <tr><td>cache:table</td><td>Create a migration for the cache database table</td></tr> <tr><td>config:cache</td><td>Create a cache file for faster configuration loading</td></tr> <tr><td>config:clear</td><td>Remove the configuration cache file</td></tr> <tr><td>db:seed</td><td>Seed the database with records</td></tr> <tr><td>debugbar:clear</td><td>Clear the Debugbar Storage</td></tr> <tr><td>event:generate</td><td>Generate the missing events and listeners based on registration</td></tr> <tr><td>key:generate</td><td>Set the application key</td></tr> <tr><td>make:auth</td><td>Scaffold basic login and registration views and routes</td></tr> <tr><td>make:channel</td><td>Create a new channel class</td></tr> <tr><td>make:command</td><td>Create a new Artisan command</td></tr> <tr><td>make:controller</td><td>Create a new controller class</td></tr> <tr><td>make:event</td><td>Create a new event class</td></tr> <tr><td>make:exception</td><td>Create a new custom exception class</td></tr> <tr><td>make:factory</td><td>Create a new model factory</td></tr> <tr><td>make:job</td><td>Create a new job class</td></tr> <tr><td>make:listener</td><td>Create a new event listener class</td></tr> <tr><td>make:mail</td><td>Create a new email class</td></tr> <tr><td>make:middleware</td><td>Create a new middleware class</td></tr> <tr><td>make:migration</td><td>Create a new migration file</td></tr> <tr><td>make:model</td><td>Create a new Eloquent model class</td></tr> <tr><td>make:notification</td><td>Create a new notification class</td></tr> <tr><td>make:observer</td><td>Create a new observer class</td></tr> <tr><td>make:policy</td><td>Create a new policy class</td></tr> <tr><td>make:provider</td><td>Create a new service provider class</td></tr> <tr><td>make:request</td><td>Create a new form request class</td></tr> <tr><td>make:resource</td><td>Create a new resource</td></tr> <tr><td>make:rule</td><td>Create a new validation rule</td></tr> <tr><td>make:seeder</td><td>Create a new seeder class</td></tr> <tr><td>make:test</td><td>Create a new test class</td></tr> <tr><td>migrate:fresh</td><td>Drop all tables and re-run all migrations</td></tr> <tr><td>migrate:install</td><td>Create the migration repository</td></tr> <tr><td>migrate:refresh</td><td>Reset and re-run all migrations</td></tr> <tr><td>migrate:reset</td><td>Rollback all database migrations</td></tr> <tr><td>migrate:rollback</td><td>Rollback the last database migration</td></tr> <tr><td>migrate:status</td><td>Show the status of each migration</td></tr> <tr><td>notifications:table</td><td>Create a migration for the notifications table</td></tr> <tr><td>optimize:clear</td><td>Remove the cached bootstrap files</td></tr> <tr><td>package:discover</td><td>Rebuild the cached package manifest</td></tr> <tr><td>queue:failed</td><td>List all of the failed queue jobs</td></tr> <tr><td>queue:failed-table</td><td>Create a migration for the failed queue jobs database table</td></tr> <tr><td>queue:flush</td><td>Flush all of the failed queue jobs</td></tr> <tr><td>queue:forget</td><td>Delete a failed queue job</td></tr> <tr><td>queue:listen</td><td>Listen to a given queue</td></tr> <tr><td>queue:restart</td><td>Restart queue worker daemons after their current job</td></tr> <tr><td>queue:retry</td><td>Retry a failed queue job</td></tr> <tr><td>queue:table</td><td>Create a migration for the queue jobs database table</td></tr> <tr><td>queue:work</td><td>Start processing jobs on the queue as a daemon</td></tr> <tr><td>route:cache</td><td>Create a route cache file for faster route registration</td></tr> <tr><td>route:clear</td><td>Remove the route cache file</td></tr> <tr><td>route:list</td><td>List all registered routes</td></tr> <tr><td>schedule:finish</td><td>Handle the completion of a scheduled command</td></tr> <tr><td>schedule:run</td><td>Run the scheduled commands</td></tr> <tr><td>session:table</td><td>Create a migration for the session database table</td></tr> <tr><td>storage:link</td><td>Create a symbolic link from "public/storage" to "storage/app/public"</td></tr> <tr><td>vendor:publish</td><td>Publish any publishable assets from vendor packages</td></tr> <tr><td>view:cache</td><td>Compile all of the application's Blade templates</td></tr> <tr><td>view:clear</td><td>Clear all compiled view files</td></tr> </table> <br/>]]></help>
+  <help><![CDATA[<p>Usage:<br> [options] command [arguments] </p><br> <table> <tr><td><strong>Options:</strong></td></tr> <tr><td>--no-interaction</td><td>(-n)</td><td>Do not ask any interactive question</td></tr> <tr><td>--ansi</td><td></td><td>Force ANSI output</td></tr> <tr><td>--help</td><td>(-h)</td><td>Display this help message</td></tr> <tr><td>--no-ansi</td><td></td><td>Disable ANSI output</td></tr> <tr><td>--quiet</td><td>(-q)</td><td>Do not output any message</td></tr> <tr><td>--version</td><td>(-V)</td><td>Display this application version</td></tr> <tr><td>--verbose</td><td>(-v)</td><td>Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug</td></tr> <tr><td>--env</td><td></td><td>The environment the command should run under</td></tr> </table> <br/> <table> <tr><td><strong>Available commands:</strong></td></tr> <tr><td>clear-compiled</td><td>Remove the compiled class file</td></tr> <tr><td>down</td><td>Put the application into maintenance mode</td></tr> <tr><td>dump-server</td><td>Start the dump server to collect dump information.</td></tr> <tr><td>env</td><td>Display the current framework environment</td></tr> <tr><td>help</td><td>Displays help for a command</td></tr> <tr><td>inspire</td><td>Display an inspiring quote</td></tr> <tr><td>list</td><td>Lists commands</td></tr> <tr><td>migrate</td><td>Run the database migrations</td></tr> <tr><td>optimize</td><td>Cache the framework bootstrap files</td></tr> <tr><td>preset</td><td>Swap the front-end scaffolding for the application</td></tr> <tr><td>serve</td><td>Serve the application on the PHP development server</td></tr> <tr><td>tinker</td><td>Interact with your application</td></tr> <tr><td>ui</td><td>Swap the front-end scaffolding for the application</td></tr> <tr><td>up</td><td>Bring the application out of maintenance mode</td></tr> <tr><td>auth:clear-resets</td><td>Flush expired password reset tokens</td></tr> <tr><td>cache:clear</td><td>Flush the application cache</td></tr> <tr><td>cache:forget</td><td>Remove an item from the cache</td></tr> <tr><td>cache:table</td><td>Create a migration for the cache database table</td></tr> <tr><td>config:cache</td><td>Create a cache file for faster configuration loading</td></tr> <tr><td>config:clear</td><td>Remove the configuration cache file</td></tr> <tr><td>db:seed</td><td>Seed the database with records</td></tr> <tr><td>db:wipe</td><td>Drop all tables, views, and types</td></tr> <tr><td>debugbar:clear</td><td>Clear the Debugbar Storage</td></tr> <tr><td>event:cache</td><td>Discover and cache the application's events and listeners</td></tr> <tr><td>event:clear</td><td>Clear all cached events and listeners</td></tr> <tr><td>event:generate</td><td>Generate the missing events and listeners based on registration</td></tr> <tr><td>event:list</td><td>List the application's events and listeners</td></tr> <tr><td>key:generate</td><td>Set the application key</td></tr> <tr><td>make:channel</td><td>Create a new channel class</td></tr> <tr><td>make:command</td><td>Create a new Artisan command</td></tr> <tr><td>make:controller</td><td>Create a new controller class</td></tr> <tr><td>make:event</td><td>Create a new event class</td></tr> <tr><td>make:exception</td><td>Create a new custom exception class</td></tr> <tr><td>make:factory</td><td>Create a new model factory</td></tr> <tr><td>make:job</td><td>Create a new job class</td></tr> <tr><td>make:listener</td><td>Create a new event listener class</td></tr> <tr><td>make:mail</td><td>Create a new email class</td></tr> <tr><td>make:middleware</td><td>Create a new middleware class</td></tr> <tr><td>make:migration</td><td>Create a new migration file</td></tr> <tr><td>make:model</td><td>Create a new Eloquent model class</td></tr> <tr><td>make:notification</td><td>Create a new notification class</td></tr> <tr><td>make:observer</td><td>Create a new observer class</td></tr> <tr><td>make:policy</td><td>Create a new policy class</td></tr> <tr><td>make:provider</td><td>Create a new service provider class</td></tr> <tr><td>make:request</td><td>Create a new form request class</td></tr> <tr><td>make:resource</td><td>Create a new resource</td></tr> <tr><td>make:rule</td><td>Create a new validation rule</td></tr> <tr><td>make:seeder</td><td>Create a new seeder class</td></tr> <tr><td>make:test</td><td>Create a new test class</td></tr> <tr><td>migrate:fresh</td><td>Drop all tables and re-run all migrations</td></tr> <tr><td>migrate:install</td><td>Create the migration repository</td></tr> <tr><td>migrate:refresh</td><td>Reset and re-run all migrations</td></tr> <tr><td>migrate:reset</td><td>Rollback all database migrations</td></tr> <tr><td>migrate:rollback</td><td>Rollback the last database migration</td></tr> <tr><td>migrate:status</td><td>Show the status of each migration</td></tr> <tr><td>notifications:table</td><td>Create a migration for the notifications table</td></tr> <tr><td>optimize:clear</td><td>Remove the cached bootstrap files</td></tr> <tr><td>package:discover</td><td>Rebuild the cached package manifest</td></tr> <tr><td>queue:failed</td><td>List all of the failed queue jobs</td></tr> <tr><td>queue:failed-table</td><td>Create a migration for the failed queue jobs database table</td></tr> <tr><td>queue:flush</td><td>Flush all of the failed queue jobs</td></tr> <tr><td>queue:forget</td><td>Delete a failed queue job</td></tr> <tr><td>queue:listen</td><td>Listen to a given queue</td></tr> <tr><td>queue:restart</td><td>Restart queue worker daemons after their current job</td></tr> <tr><td>queue:retry</td><td>Retry a failed queue job</td></tr> <tr><td>queue:table</td><td>Create a migration for the queue jobs database table</td></tr> <tr><td>queue:work</td><td>Start processing jobs on the queue as a daemon</td></tr> <tr><td>route:cache</td><td>Create a route cache file for faster route registration</td></tr> <tr><td>route:clear</td><td>Remove the route cache file</td></tr> <tr><td>route:list</td><td>List all registered routes</td></tr> <tr><td>schedule:finish</td><td>Handle the completion of a scheduled command</td></tr> <tr><td>schedule:run</td><td>Run the scheduled commands</td></tr> <tr><td>session:table</td><td>Create a migration for the session database table</td></tr> <tr><td>storage:link</td><td>Create a symbolic link from "public/storage" to "storage/app/public"</td></tr> <tr><td>ui:auth</td><td>Scaffold basic login and registration views and routes</td></tr> <tr><td>vendor:publish</td><td>Publish any publishable assets from vendor packages</td></tr> <tr><td>view:cache</td><td>Compile all of the application's Blade templates</td></tr> <tr><td>view:clear</td><td>Clear all compiled view files</td></tr> </table> <br/>]]></help>
 </framework>
 

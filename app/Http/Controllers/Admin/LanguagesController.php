@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 
 use App\Models\Language;
 
-class LanguagesController extends MainController
+class LanguagesController extends Controller
 {
 	/**
 	 * Display a listing of the resource.

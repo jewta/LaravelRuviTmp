@@ -3,12 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\Controller;
 use Illuminate\Validation\Rule;
 
 use App\Models\Menu;
 
-class MenuController extends MainController
+class MenuController extends Controller
 {
 	/**
 	 * Показывает страницу со всеми меню

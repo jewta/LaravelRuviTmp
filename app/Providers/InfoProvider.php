@@ -17,7 +17,7 @@ class InfoProvider extends ServiceProvider
     public function boot()
     {
 		$data = [
-			'languages' => Language::all(),
+			'languages' => ''//Language::all(),
 		];
 
 		View::share($data);
